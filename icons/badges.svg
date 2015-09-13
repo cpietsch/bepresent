@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="215px" height="215px" viewBox="0 0 215 215" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>badges</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Icons" sketch:type="MSArtboardGroup" transform="translate(-114.000000, -82.000000)">
+            <g id="badges" sketch:type="MSLayerGroup" transform="translate(114.000000, 82.000000)">
+                <path d="M58.7361342,38.5 C58.7361342,38.5 78.8896827,38.5 103.731922,38.5 L130.879212,38.5 C155.7297,38.5 175.875,58.653663 175.875,83.5067538 L175.875,169.368246 C175.875,194.22479 155.721337,214.375 130.868246,214.375 L45.0067538,214.375 C20.15021,214.375 4.26325641e-14,194.236498 4.26325641e-14,169.37803 L4.26325641e-14,97.6133172" id="Turn-Off-Badges" stroke="#000000" stroke-width="12" sketch:type="MSShapeGroup" transform="translate(87.937500, 126.437500) rotate(-270.000000) translate(-87.937500, -126.437500) "></path>
+                <circle id="Oval-1" fill="#000000" sketch:type="MSShapeGroup" cx="172" cy="43" r="43"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

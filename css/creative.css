@@ -51,6 +51,11 @@ p {
     line-height: 1.5;
 }
 
+.icon {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
 .bg-primary {
     background-color: #f05f40;
 }
@@ -245,7 +250,6 @@ header .header-content .header-content-inner p {
 
 .service-box {
     margin: 50px auto 0;
-    max-width: 400px;
 }
 
 @media(min-width:992px) {
