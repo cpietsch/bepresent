@@ -11,7 +11,7 @@ body {
 }
 
 body {
-    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+    font-family:'Helvetica Neue',Arial,sans-serif;
 }
 
 hr {
@@ -45,11 +45,15 @@ h6 {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
+h4 {margin-top: 20px;}
+
 p {
     margin-bottom: 20px;
     font-size: 16px;
     line-height: 1.5;
 }
+
+.checkbox {text-align: left; }
 
 .icon {
     width: 100px;

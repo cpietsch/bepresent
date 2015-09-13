@@ -29,15 +29,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/creative.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/creative.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/font-awesome\/css\/font-awesome.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -524,6 +515,17 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/icons\/badges.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10770,
+		"inputAbbreviatedPath": "\/icons\/badges.png",
+		"outputAbbreviatedPath": "\/icons\/badges.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/header.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -600,15 +602,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
-		},
-	"\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/js\/bootstrap.js": {
 		"fileType": 64,
