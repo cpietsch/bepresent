@@ -42,6 +42,16 @@
         }
     })
 
+    var isIphone = navigator.userAgent.match(/iPhone|iPod/i);
+    var emailModal = $('#emailModal');
+
+    if(isIphone) emailModal.modal('show');
+
+    $('.submit', emailModal).click(function(){
+        var mail = $('.mail', emailModal).val();
+        $.get( "http://zeigma.com/bepresent/mail.php", { mail: mail } );
+    })
+
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
 
