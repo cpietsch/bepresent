@@ -42,6 +42,11 @@
         }
     })
 
+    // Initialize WOW.js Scrolling Animations
+    new WOW().init();
+
+
+    // Custom stuff
     var isIphone = navigator.userAgent.match(/iPhone|iPod/i);
     var emailModal = $('#emailModal');
 
@@ -52,7 +57,8 @@
         $.get( "http://zeigma.com/bepresent/mail.php", { mail: mail } );
     })
 
-    // Initialize WOW.js Scrolling Animations
-    new WOW().init();
+     $('#fullpage').fullpage();
+
+    
 
 })(jQuery); // End of use strict
