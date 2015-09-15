@@ -11,17 +11,30 @@ body {
 }
 
 body {
-    font-family:'Helvetica Neue',Arial,sans-serif;
+    font-family:'Open Sans', 'Helvetica Neue',Arial,sans-serif;
+    color: #fff;
 }
 
 hr {
     max-width: 50px;
-    border-color: #f05f40;
-    border-width: 3px;
+    border-color: #fff;
+    border-width: 2px;
 }
 
 hr.light {
     border-color: #fff;
+}
+
+.screenflow {
+        border: 10px solid rgba(255, 255, 255, .5);
+}
+
+.description {
+}
+
+.location {
+    margin-top: 30px;
+    font-style: italic;
 }
 
 a {
@@ -33,7 +46,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #eb3812;
+    color: #456D75;
 }
 
 h1,
@@ -41,15 +54,13 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-}
+h6{}
 
 h4 {margin-top: 20px;}
 
 p {
     margin-bottom: 20px;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.5;
 }
 
@@ -60,13 +71,12 @@ p {
     margin-bottom: 20px;
 }
 
-.bg-primary {
-    background-color: #f05f40;
+.bg-light {
+    background-color: #81C6D4;
 }
 
 .bg-dark {
-    color: #fff;
-    background-color: #222;
+    background-color: #77BCCA;
 }
 
 .text-faded {
@@ -116,12 +126,12 @@ aside {
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #f05f40;
+    color: #456D75;
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #f05f40!important;
+    color: #456D75!important;
     background-color: transparent;
 }
 
@@ -227,7 +237,7 @@ header .header-content .header-content-inner p {
 
     header .header-content {
         position: absolute;
-        top: 50%;
+        top: 40%;
         padding: 0 50px;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
@@ -249,7 +259,8 @@ header .header-content .header-content-inner p {
 }
 
 .section-heading {
-    margin-top: 0;
+    margin: 0 0 30px;
+    font-size: 40px;
 }
 
 .service-box {
