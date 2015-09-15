@@ -46,7 +46,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #456D75;
+    color: #fff;
 }
 
 h1,
@@ -126,12 +126,12 @@ aside {
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #456D75;
+    color: #fff;
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #456D75!important;
+    color: #fff!important;
     background-color: transparent;
 }
 
@@ -261,6 +261,10 @@ header .header-content .header-content-inner p {
 .section-heading {
     margin: 0 0 30px;
     font-size: 40px;
+}
+
+.heading {
+    margin: 60px 0 30px;
 }
 
 .service-box {
