@@ -95,5 +95,17 @@
        
     });
 
+    setTimeout(function(){
+        $(".add").addClass("section");
+        $.fn.fullpage.destroy('all');
+        $('#fullpage').fullpage({
+            anchors: ['page1', 'page2', 'page3', 'page4']
+        });
+        $.fn.fullpage.silentMoveTo('page2', 0);
+    },4000)
+    // $(window).load(function(){
+    //     $('#fullpage').fullpage();
+    // })
+
 })(jQuery); // End of use strict
 
