@@ -20,7 +20,7 @@
     $('body').scrollspy({
         target: '.navbar-fixed-top',
         offset: 51
-    })
+    });
 
     // Closes the Responsive Menu on Menu Item Click
     $('.navbar-collapse ul li a').click(function() {
@@ -40,7 +40,7 @@
         offset: {
             top: 100
         }
-    })
+    });
 
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
@@ -57,9 +57,43 @@
         $.get( "http://zeigma.com/bepresent/mail.php", { mail: mail } );
     })
 
-    $(window).load(function(){
-             $('#fullpage').fullpage();
-    })
+     $('#fullpage').fullpage({
+        //Navigation
+        menu: false,
+        lockAnchors: false,
+        anchors:['page1', 'page2', 'page3', 'page4', 'page5', 'page6'],
+        navigation: true,
+        navigationPosition: 'right',
+        navigationTooltips: ['firstSlide', 'secondSlide'],
+        showActiveTooltip: false,
+        slidesNavigation: true,
+        slidesNavPosition: 'bottom',
+
+        //Scrolling
+        css3: true,
+        scrollingSpeed: 700,
+        autoScrolling: true,
+        fitToSection: true,
+        fitToSectionDelay: 1000,
+        scrollBar: false,
+        easing: 'easeInOutCubic',
+        easingcss3: 'ease',
+        loopBottom: false,
+        loopTop: false,
+        loopHorizontal: true,
+        continuousVertical: false,
+        normalScrollElements: '#element1, .element2',
+        scrollOverflow: false,
+        touchSensitivity: 15,
+        normalScrollElementTouchThreshold: 5,
+
+        //Accessibility
+        keyboardScrolling: true,
+        animateAnchor: true,
+        recordHistory: true,
+
+       
+    });
 
 })(jQuery); // End of use strict
 

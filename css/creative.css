@@ -21,8 +21,13 @@ hr {
     border-width: 2px;
 }
 
+
 hr.light {
     border-color: #fff;
+}
+
+#fp-nav ul li a span{
+    background: #fff;
 }
 
 .screenflow {
